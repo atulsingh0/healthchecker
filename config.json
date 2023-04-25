@@ -1,0 +1,16 @@
+{
+    "cmds": [
+        {
+            "command": "docker ps",
+            "exitcode": 0,
+            "output": "",
+            "extra": ""
+        },
+        {
+            "command": "ps -ef",
+            "exitcode": 0,
+            "output": "",
+            "extra": ""
+        }
+    ]
+}

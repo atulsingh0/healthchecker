@@ -1,13 +1,17 @@
 {
     "cmds": [
         {
-            "command": "docker ps",
+            "command": "docker",
+            "args": "ps",
+            "timeout": 2,
             "exitcode": 0,
             "output": "",
             "extra": ""
         },
         {
-            "command": "ps -ef",
+            "command": "ps",
+            "args": "-ef",
+            "timeout": 2,
             "exitcode": 0,
             "output": "",
             "extra": ""
